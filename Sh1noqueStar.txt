@@ -1,0 +1,11 @@
+//tipo de parâmetros:
+
+//Query Param: request.query (Filtros, ordenação, paginação, ...)
+//Route Param: request.parans (identificar um recurso ou remoção)
+//Body: request.body (Dados para criação ou alteração de registros)
+
+//MongoDB (Não-Relacional)
+
+shinoque1@3
+Igor
+shin123
