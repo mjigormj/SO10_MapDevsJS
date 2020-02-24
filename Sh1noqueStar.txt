@@ -1,11 +1,25 @@
-//tipo de parâmetros:
+//tipo de parï¿½metros:
 
-//Query Param: request.query (Filtros, ordenação, paginação, ...)
-//Route Param: request.parans (identificar um recurso ou remoção)
-//Body: request.body (Dados para criação ou alteração de registros)
+//Query Param: request.query (Filtros, ordenaï¿½ï¿½o, paginaï¿½ï¿½o, ...)
+//Route Param: request.parans (identificar um recurso ou remoï¿½ï¿½o)
+//Body: request.body (Dados para criaï¿½ï¿½o ou alteraï¿½ï¿½o de registros)
 
-//MongoDB (Não-Relacional)
+//MongoDB (Nï¿½o-Relacional)
 
-shinoque1@3
+yarn add nodemon -D
+'D' = Dependencia de desenvolvimento
+
+yarn nodemon (pagina)
+
+trocando no packageJson fica 'yarn dev' 
 Igor
-shin123
+
+O CONTROLLER tem cinco funÃ§Ãµes, sÃ£o essas: INDEX -listar; SHOW -mostrar unico item, STORE -criar, UPDATE -atulizar e DESTROY -deletar 
+
+corpo da requisiÃ§Ã£o:
+{
+	"github_username": "mjigormj",
+	"techs": "Java, PHP, nodeJS",
+	"latitude": "-23.7404415",
+	"longitude": "-46.6610162,15z"
+}

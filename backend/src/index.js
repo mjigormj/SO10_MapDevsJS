@@ -4,7 +4,11 @@ const routes = require('./routes');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://Igor:shin1@3@cluster0-sythn.mongodb.net/test?retryWrites=true&w=majority', {
+app.get('/', (request, response) => { 
+    return response.json({message: 'Olá, mané'});
+}) 
+
+mongoose.connect('mongodb+srv://Igor:igorSO10@cluster0-sythn.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
